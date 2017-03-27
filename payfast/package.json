@@ -1,0 +1,27 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "API REST para pagamentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "pagamentos"
+  ],
+  "author": "Gabriel Arsenio",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "express-validator": "^3.1.2",
+    "memcached": "^2.2.2",
+    "morgan": "^1.7.0",
+    "mysql": "^2.13.0",
+    "restify": "^4.3.0",
+    "soap": "^0.18.0",
+    "winston": "^2.3.1"
+  }
+}
